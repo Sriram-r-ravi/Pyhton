@@ -1,10 +1,13 @@
 age = input("What is your current age?")
+age_that_user_need_to_live=input("Enter the age that you need to live?")
+
 input_age=int(age)
 print(type(input_age))
 
-# Number of age he going to live = 100
+input_age_that_user_need_to_live=int(age_that_user_need_to_live)
+print(type(input_age_that_user_need_to_live))
 
-Number_of_days_remaining=100-input_age
+Number_of_days_remaining=input_age_that_user_need_to_live-input_age
 Total_no_of_days_user_going_to_live=Number_of_days_remaining*365
 Total_no_of_month_user_going_to_live=Number_of_days_remaining*12
 Total_no_of_week_user_going_to_live=Number_of_days_remaining*52
